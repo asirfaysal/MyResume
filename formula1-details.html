@@ -38,6 +38,17 @@
 
         <div class="row gy-4">
 
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Classifying Formula1 Cars - Big Data</h3>
+              <ul>
+                <li><strong>Category</strong>: AI</li>
+                <li><strong>Technologies</strong>: </li>
+              </ul>
+            </div>
+
+          </div>
+
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
@@ -79,22 +90,56 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Classifying Formula1 Cars - Big Data</h3>
-              <ul>
-                <li><strong>Technologies</strong>: </li>
-                <!-- <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li> -->
-              </ul>
-            </div>
-            <!-- <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+
+
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-8 offset-lg-4">
+
+            <div class="portfolio-description">
+              <h2>Assignment</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                Our assignment was to develop a machine learning model that could accurately classify images. We chose to classify
+                Formula 1 cars by their respective teams. This was a challenging task, as the cars often have very similar designs.              
               </p>
-            </div> -->
+              
+              <h2>Approach</h2>
+              <p>
+                In this project, we were a total of three students. We collected a diverse set of images of Formula 1 cars from five
+                different teams: Mercedes, McLaren, Red Bull, Ferrari, and Renault. These images were collected from flickr using a
+                web scraper, ensuring a high-quality diverse representation of each team's vehicles. This method allowed for gathering
+                a vast range of images varying in angles, race conditions, and years, providing a rich dataset for model training.
+                Then, we did transfer learning with the FastAI library. We chose a pre-trained ResNet50 model as our base and
+                fine-tuned it on our dataset of F1 car images. We experimented with different learning rates and training techniques
+                to optimize the model's performance.              
+              </p>
+
+              <h2>Result</h2>
+              <p>
+                In the end, we were able to develop a model that achieved a high level of accuracy in classifying F1 cars by their
+                teams. The model was able to generalize well to new images, and it was robust to variations in lighting and camera
+                angles. We evaluated the model using a variety of metrics, including a confusion matrix, ROC curve, and AUC. The model
+                showed high accuracy across all classes, with perfect classification for some teams.              
+              </p>
+
+              <h2>My Input</h2>
+              <p>
+                I actively collaborated with my fellow team members throughout the project. My contributions included
+                cleaning and preprocessing the dataset. Additionally, I played a role in implementing the transfer learning
+                approach using the FastAI library, fine-tuning the pre-trained ResNet50 model on our specific dataset of Formula 1 car
+                images.              
+              </p>
+
+              <h2>What I learned</h2>
+              <p>
+                Through this project, I gained a deeper understanding of transfer learning and how it can be used to solve real-world
+                problems. I am proud of the results we achieved, and I believe that this project has prepared me well for future work
+                in the field of computer vision.              
+              </p>
+
+            </div>
+
           </div>
 
         </div>
